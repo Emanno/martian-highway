@@ -10,15 +10,11 @@ public class SetCtrl : MonoBehaviour
     public Slider slider;
     public Dropdown resolutionDropdown;
     public Toggle tgWindow;
-    public Button Configuracoes;
-    public GameObject Config;
-    private bool Opcoes;
 
     Resolution[] resolutions;
 
     void Start()
     {
-        Opcoes = false;
         mixer.SetFloat("volume", slider.value);
 
         resolutions = Screen.resolutions;
@@ -76,23 +72,6 @@ public class SetCtrl : MonoBehaviour
     public void AjustaVolume(float volume)
     {
         mixer.SetFloat("volume", volume);
-    }
-
-    public void TelaConfig()
-    {
-        if(Opcoes == false)
-        {
-            Configuracoes.onClick = new Button.ButtonClickedEvent();
-            Configuracoes.onClick.AddListener(() => Opcoes = true);
-            Config.SetActive(true);
-        }
-        else
-        {
-            Configuracoes.onClick = new Button.ButtonClickedEvent();
-            Configuracoes.onClick.AddListener(() => Opcoes = false);
-            Config.SetActive(false);
-        }
-        
     }
 
     /*public void Resolution01()
