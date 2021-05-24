@@ -224,9 +224,9 @@ MonoBehaviour:
   m_Name: Global Volume Profile
   m_EditorClassIdentifier: 
   components:
+  - {fileID: 196331023519051973}
   - {fileID: -6427607963159752361}
   - {fileID: 1942321411123889035}
-  - {fileID: 196331023519051973}
   - {fileID: -6335635197711696675}
   - {fileID: -3730163315921993748}
   - {fileID: -643627120153092501}
