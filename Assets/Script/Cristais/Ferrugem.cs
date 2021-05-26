@@ -18,7 +18,7 @@ public class Ferrugem : MonoBehaviour
         {
             GetComponent<AudioSource>().Play();
             GetComponent<MeshRenderer>().enabled = false;
-            GetComponent<CapsuleCollider>().enabled = false;
+            GetComponent<MeshCollider>().enabled = false;
             Destroy(this.gameObject, 1.0f);
         }
 

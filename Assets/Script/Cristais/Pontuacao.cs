@@ -25,7 +25,7 @@ public class Pontuacao : MonoBehaviour
             score += 1;
             GetComponent<AudioSource>().Play();
             GetComponent<MeshRenderer>().enabled = false;
-            GetComponent<CapsuleCollider>().enabled = false;
+            GetComponent<MeshCollider>().enabled = false;
             Destroy(this.gameObject, 2.0f);
         }
     }

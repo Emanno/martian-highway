@@ -32,7 +32,7 @@ public class Escudo : MonoBehaviour
         {
             GetComponent<AudioSource>().Play();
             GetComponent<MeshRenderer>().enabled = false;
-            GetComponent<CapsuleCollider>().enabled = false;
+            GetComponent<MeshCollider>().enabled = false;
             Destroy(this.gameObject, 2.0f);
         }
 
