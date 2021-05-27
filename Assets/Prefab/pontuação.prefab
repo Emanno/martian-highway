@@ -11,10 +11,10 @@ GameObject:
   - component: {fileID: 5364850985320231376}
   - component: {fileID: 5364850985320231379}
   - component: {fileID: 5364850985320231378}
-  - component: {fileID: 5364850985320231377}
   - component: {fileID: 5364850985320231389}
   - component: {fileID: 5364850985320231388}
   - component: {fileID: 2786474310703207511}
+  - component: {fileID: 4791238302220330837}
   m_Layer: 0
   m_Name: "pontua\xE7\xE3o"
   m_TagString: Pontos
@@ -85,20 +85,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!136 &5364850985320231377
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5364850985320231383}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &5364850985320231389
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -224,3 +210,17 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!64 &4791238302220330837
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5364850985320231383}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2212009239438826721, guid: 978fef80a5ca8234baee67716970ab10, type: 3}
