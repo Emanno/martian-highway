@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 8900000, guid: 2d4ce2d4382df254ca69d209a2fc3c5f, type: 3}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4404296, g: 0.24553588, b: 0.24820432, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0.99999905, b: 0.99999905, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -14947,8 +14947,9 @@ MonoBehaviour:
   - {fileID: 164381454}
   - {fileID: 1379091945}
   ForcaMotor: 400
-  ForcaVolante: 6
+  ForcaVolante: 2.2
   ForcaFreio: 1000
+  rigidCar: {fileID: 1267521434}
 --- !u!114 &1267521436
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26057,6 +26058,16 @@ PrefabInstance:
       propertyPath: carro
       value: 
       objectReference: {fileID: 1267521429}
+    - target: {fileID: 4235099621682083116, guid: 4dc442a77f56a2f44a48494048fc6b22,
+        type: 3}
+      propertyPath: vel.z
+      value: -15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4235099621682083116, guid: 4dc442a77f56a2f44a48494048fc6b22,
+        type: 3}
+      propertyPath: velQueda.y
+      value: -7
+      objectReference: {fileID: 0}
     - target: {fileID: 4235099621682083118, guid: 4dc442a77f56a2f44a48494048fc6b22,
         type: 3}
       propertyPath: m_RootOrder
@@ -26121,6 +26132,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsTrigger
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4235099621682083122, guid: 4dc442a77f56a2f44a48494048fc6b22,
+        type: 3}
+      propertyPath: m_Mass
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4235099621682083126, guid: 4dc442a77f56a2f44a48494048fc6b22,
         type: 3}

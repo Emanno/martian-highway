@@ -10,7 +10,7 @@ public class danoMeteoro : MonoBehaviour
     public float disMin = 5;
     public Rigidbody rb;
     public Vector3 vel;
-    public Vector3 velQueda = new Vector3(0, -5, -2);
+    public Vector3 velQueda = new Vector3(0, -20, -2);
     public GameObject carro;
 
     void Start()
@@ -22,11 +22,12 @@ public class danoMeteoro : MonoBehaviour
     {
         Vector3 dir = carro.transform.position - transform.position;
 
-        if(Mathf.Abs(dir.z) < disMin)
+        if (Mathf.Abs(dir.z) < disMin)
         {
-            rb.useGravity = true;
-            rb.AddForce(velQueda);
-            //Debug.Log("Perto" + dir.z);
+            //rb.useGravity = true;
+            //rb.AddForce(velQueda);
+            rb.velocity = velQueda;
+            Debug.Log("Perto" + dir.z);
         }
     }
 
