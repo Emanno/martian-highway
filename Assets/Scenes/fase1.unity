@@ -23,7 +23,7 @@ RenderSettings:
   m_AmbientSkyColor: {r: 2.4182553, g: 0.69407445, b: 0, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
-  m_AmbientIntensity: 0.79
+  m_AmbientIntensity: 0.42
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.9811321, g: 0.4353409, b: 0.2906372, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: 990bdddcaffd81743be40bbca0e1bb65, type: 2}
