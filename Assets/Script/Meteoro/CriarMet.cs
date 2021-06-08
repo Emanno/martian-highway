@@ -4,13 +4,8 @@ using UnityEngine;
 
 public class CriarMet : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public Vector3 posicao;
 
-    // Update is called once per frame
     void Update()
     {
         
