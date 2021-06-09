@@ -13,7 +13,7 @@ public class follow : MonoBehaviour
 
     void Start()
     {
-       
+
     }
 
     // Update is called once per frame
@@ -21,17 +21,12 @@ public class follow : MonoBehaviour
     {
         dist = Vector3.Distance(carro.position, transform.position);// calculo para atribuir a distancia de onde o código vai para DIST
 
-        transform.position = Vector3.MoveTowards(transform.position, target.position, speed * Time.deltaTime);//Comando para fazer o que receber o codigo seguir o alvo
-
+        transform.position = Vector3.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
         if (dist <= howClose)
         {
-            transform.position = Vector3.MoveTowards(transform.position, target.position, velProx * Time.deltaTime);
+            transform.Translate(Vector3.down * speed * Time.deltaTime);
+            Vector3 targetPos = target.position;
+            targetPos.x = transform.position.x; // comando para ignorar um dos eixos
         }
-
-      
-
-      
-
-      
     }
 }

@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 4235099621682083120}
   - component: {fileID: 4235099621682083122}
   - component: {fileID: 4235099621682083116}
+  - component: {fileID: 9137283667338411044}
   - component: {fileID: 4354183277615733583}
   m_Layer: 0
   m_Name: meteoro
@@ -132,6 +133,23 @@ MonoBehaviour:
   vel: {x: 0, y: 0, z: -15}
   velQueda: {x: 0, y: -10, z: -15}
   carro: {fileID: 0}
+--- !u!114 &9137283667338411044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4235099621682083119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9da66b14929c6040a734a92506daaca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  carro: {fileID: 0}
+  speed: 10
+  velProx: 0
+  howClose: 0
 --- !u!82 &4354183277615733583
 AudioSource:
   m_ObjectHideFlags: 0
