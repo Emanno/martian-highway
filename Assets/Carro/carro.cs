@@ -17,13 +17,12 @@ public class carro : MonoBehaviour
         float b = (Input.GetKey(KeyCode.Space)) ? ForcaFreio : 0;
         float a = Input.GetAxis("Horizontal");
 
-
         wcs[0].motorTorque = t;
         wcs[1].motorTorque = t;
         wcs[2].brakeTorque = b;
         wcs[3].brakeTorque = b;
 
-        float vel = (rigidCar.velocity.magnitude) / 10.0f;
+        float vel = ((rigidCar.velocity.magnitude) / 10.0f) + 0.1f;
 
         wcs[0].steerAngle = a * ForcaVolante / vel;
         wcs[1].steerAngle = a * ForcaVolante / vel;
