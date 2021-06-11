@@ -22,7 +22,7 @@ public class Pontuacao : MonoBehaviour
     {
         if(col.CompareTag("Player"))
         {
-            score += 1;
+            score++;
             GetComponent<AudioSource>().Play();
             GetComponent<MeshRenderer>().enabled = false;
             GetComponent<MeshCollider>().enabled = false;

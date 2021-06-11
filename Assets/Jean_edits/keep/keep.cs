@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DIVIDED : MonoBehaviour
+public class keep : MonoBehaviour
 {
     public Transform target;//Esse é o nosso alvo que definimos fora do código
     public Transform carro; //colocamos o carro por fora do codigo
@@ -10,8 +10,7 @@ public class DIVIDED : MonoBehaviour
     public float velProx;
     public float howClose; // variavel para definir quao proximo o carro pode chegar em relação ao alvo!
     private float dist; // variavel para definir a distancia entre o alvo e o carro.
-    private float dividir; // variavel para ser utilizada entre a distancia do carro e o alvo (target)
-    private float aproximar;// variavel para utilizar como calculo de divisão entre a variavel dividir, alvo(target) e o cometa
+
     void Start()
     {
 
@@ -20,13 +19,15 @@ public class DIVIDED : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        dist = Vector3.Distance(carro.position, transform.position);// calculo para atribuir a distancia de onde o código vai para DIST
 
-        
-        transform.position = target.position - transform.position - carro.position - target.position ;
-        if (dist < howClose)
+        transform.position = Vector3.MoveTowards(transform.position, target.position, speed * Time.deltaTime);//Comando para fazer o que receber o codigo seguir o alvo
+
+        if (dist <= howClose)
         {
-           
+            transform.position = Vector3.MoveTowards(transform.position, target.position, velProx * Time.deltaTime);
         }
+
 
 
 
