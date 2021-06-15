@@ -11,16 +11,18 @@ public class danoMeteoro : MonoBehaviour
     public Rigidbody rb;
     public Vector3 vel;
     public Vector3 velQueda = new Vector3(0, -20, -2);
-    public GameObject carro;
+    public Transform carro;
 
     void Start()
     {
         rb.velocity = vel;
+        carro = GameObject.Find("carro").GetComponent<Transform>();
+        Destroy(gameObject, 10f);
     }
 
     void Update()
     {
-        Vector3 dir = carro.transform.position - transform.position;
+        Vector3 dir = carro.position - transform.position;
 
         if (Mathf.Abs(dir.z) < disMin)
         {
