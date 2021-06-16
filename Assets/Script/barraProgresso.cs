@@ -9,13 +9,12 @@ public class barraProgresso : MonoBehaviour
     public GameObject final;
     public Slider progresso;
     public float distancia;
-    public float valor;
 
     private void Start()
     {
         progresso.minValue = 0;
         progresso.maxValue = 323.3f;
-        progresso.value = valor;
+        progresso.value = 0;
     }
     void Update()
     {

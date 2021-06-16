@@ -15,7 +15,7 @@ public class Pontuacao : MonoBehaviour
 
     private void Update()
     {
-        scoreTxt.text = (score + "/8").ToString();
+        scoreTxt.text = (score + "/8 cristais").ToString();
     }
 
     private void OnTriggerEnter(Collider col)
