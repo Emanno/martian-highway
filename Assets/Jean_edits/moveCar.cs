@@ -11,8 +11,7 @@ public class moveCar : MonoBehaviour
     private void FixedUpdate()
     {
         Vector3 forwardMove = transform.forward * speed * Time.fixedDeltaTime;
-        //Vector3 horizontalMove = transform.right * horizontalInput * speed * Time.fixedDeltaTime;
-        rb.MovePosition(rb.position + forwardMove); //+ horizontalMove);
+        rb.MovePosition(rb.position + forwardMove);
     }
 
     void Update()
