@@ -6,14 +6,14 @@ public class turn : MonoBehaviour
 {
     public CharacterController controller;
 
-    public float horSpeed= 5;
+    public float horSpeed;
 
     void Start()
     {
         controller = GetComponent<CharacterController>();
     }
 
-    void Update()
+    void FixedUpdate()
     {
         if (Input.GetKeyDown(KeyCode.RightArrow) && transform.position.x < 0.5f)
         {

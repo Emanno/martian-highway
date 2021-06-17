@@ -13,7 +13,7 @@ public class barraProgresso : MonoBehaviour
     private void Start()
     {
         progresso.minValue = 0;
-        progresso.maxValue = 323.3f;
+        progresso.maxValue = distancia;
         progresso.value = 0;
     }
     void Update()
