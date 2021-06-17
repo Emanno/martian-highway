@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.3f1 (76626098c1c4) revision 7758432'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home Single Language; OS build 19041.1052; Version 2004; 64bit' Language: 'pt' Physical Memory: 3971 MB
+OS: 'Windows 10 Home Single Language; OS build 19043.1055; Version 2009; 64bit' Language: 'pt' Physical Memory: 32678 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,30 +11,215 @@ C:\Program Files\Unity\Hub\Editor\2020.3.3f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/55319/Documents/Unity Projects/Martian Highway
+C:/Users/batis/Desktop/jogo_12_04/game_01/game_02
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56982
-Successfully changed project path to: C:/Users/55319/Documents/Unity Projects/Martian Highway
-C:/Users/55319/Documents/Unity Projects/Martian Highway
+51988
+Successfully changed project path to: C:/Users/batis/Desktop/jogo_12_04/game_01/game_02
+C:/Users/batis/Desktop/jogo_12_04/game_01/game_02
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 1179.81 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 98.78 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.3f1 (76626098c1c4)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/55319/Documents/Unity Projects/Martian Highway/Assets
+[Subsystems] Discovering subsystems at path C:/Users/batis/Desktop/jogo_12_04/game_01/game_02/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) HD Graphics 620 (ID=0x5921)
+    Renderer: Intel(R) HD Graphics 620 (ID=0x5916)
     Vendor:   
-    VRAM:     1985 MB
-    Driver:   26.20.100.6911
+    VRAM:     16339 MB
+    Driver:   27.20.100.9466
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56448
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56932
 Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005643 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 165.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.161 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002261 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 76.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.414 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3084 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 143.8 MB.
+System memory in use after: 144.0 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3534.
+Total: 8.591100 ms (FindLiveObjects: 1.351200 ms CreateObjectMapping: 0.843000 ms MarkObjects: 6.262200 ms  DeleteObjects: 0.130500 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/fase1.unity
+  artifactKey: Guid(b8dad69a6bb8bbf469e2194999d7de86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/fase1.unity using Guid(b8dad69a6bb8bbf469e2194999d7de86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37b687c3537ff36f5290a408e67fa42c') in 0.101852 seconds
+  Import took 0.146089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.777591 seconds.
+  path: Assets/Jean_edits/Objects/base_copia.fbx
+  artifactKey: Guid(c93df8f28bd702848815360e94e00ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean_edits/Objects/base_copia.fbx using Guid(c93df8f28bd702848815360e94e00ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '139ca4d00d332e2a6fa518c12e21f962') in 11.514850 seconds
+  Import took 11.526811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 249.083473 seconds.
+  path: Assets/Scenes/fase2.unity
+  artifactKey: Guid(9e24a45828a8cee4fb5789e588d30253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/fase2.unity using Guid(9e24a45828a8cee4fb5789e588d30253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81bd7f02a9d576bc7663bc38f4e9798f') in 0.060060 seconds
+  Import took 0.080654 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003867 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in 29.169 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2942 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.2 MB.
+System memory in use after: 139.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3618.
+Total: 3.146200 ms (FindLiveObjects: 0.365900 ms CreateObjectMapping: 0.268900 ms MarkObjects: 2.475000 ms  DeleteObjects: 0.034300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 293.466262 seconds.
+  path: Assets/Scenes/fase2.unity
+  artifactKey: Guid(9e24a45828a8cee4fb5789e588d30253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/fase2.unity using Guid(9e24a45828a8cee4fb5789e588d30253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '309b5aa3bb88f698d569225d882a854e') in 0.050259 seconds
+  Import took 0.061106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.177709 seconds.
+  path: Assets/Scenes/fase2.unity
+  artifactKey: Guid(9e24a45828a8cee4fb5789e588d30253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/fase2.unity using Guid(9e24a45828a8cee4fb5789e588d30253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '309b5aa3bb88f698d569225d882a854e') in 1.020285 seconds
+  Import took 1.052556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.005041 seconds.
+  path: Assets/Jean_edits/materials/chão.mat
+  artifactKey: Guid(f0ad7ba084f7022499d88f3730bb4d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean_edits/materials/chão.mat using Guid(f0ad7ba084f7022499d88f3730bb4d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5713a3bcc2ba71d4be85a56e433e63bc') in 36.347870 seconds
+  Import took 36.372478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000456 seconds.
+  path: Assets/Jean_edits/materials/PONTO.mat
+  artifactKey: Guid(c003080511304744dbddfe430dffd579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean_edits/materials/PONTO.mat using Guid(c003080511304744dbddfe430dffd579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f76f9cbd80c582d01e8561fa0d4265d') in 8.191789 seconds
+  Import took 8.238474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.107037 seconds.
+  path: Assets/Jean_edits/materials/DANO.mat
+  artifactKey: Guid(d6f333caf03e81543800a6f8184bd119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean_edits/materials/DANO.mat using Guid(d6f333caf03e81543800a6f8184bd119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48fe6048657eeff2acf7c613009348ca') in 18.036547 seconds
+  Import took 18.048568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001643 seconds.
+  path: Assets/Jean_edits/materials/escudo.mat
+  artifactKey: Guid(22f25705c05e2804fa9ec050cd3e4608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean_edits/materials/escudo.mat using Guid(22f25705c05e2804fa9ec050cd3e4608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1e5b4e1a85179c8c60fd3a09ae7ce7c') in 11.531142 seconds
+  Import took 11.542642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 139.391448 seconds.
+  path: Assets/Jean_edits/materials/CAR/BODY.mat
+  artifactKey: Guid(6bb5ff62e27ea88439c28556264bd092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean_edits/materials/CAR/BODY.mat using Guid(6bb5ff62e27ea88439c28556264bd092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc19fb6826c05c35cd41607da687a762') in 9.222398 seconds
+  Import took 17.057535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.945365 seconds.
+  path: Assets/Jean_edits/materials/base
+  artifactKey: Guid(88c655fa68acfa84eb09d7f067e88791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean_edits/materials/base using Guid(88c655fa68acfa84eb09d7f067e88791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb0e5e8256093120db5c4edfad782dc5') in 0.128210 seconds
+  Import took 0.189223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.124896 seconds.
+  path: Assets/Jean_edits/materials/base/base.mat
+  artifactKey: Guid(b9dd8ce57c5076c41bb3ff799a97458d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean_edits/materials/base/base.mat using Guid(b9dd8ce57c5076c41bb3ff799a97458d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edd6588a06b4606292c19e5e82115e06') in 6.973415 seconds
+  Import took 7.115379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 405.252622 seconds.
+  path: Assets/Scenes/fase1.unity
+  artifactKey: Guid(b8dad69a6bb8bbf469e2194999d7de86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/fase1.unity using Guid(b8dad69a6bb8bbf469e2194999d7de86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8477259bc889ab7e5dd8b15fffbbd770') in 0.201190 seconds
+  Import took 0.210351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.647798 seconds.
+  path: Assets/Scenes/fase2.unity
+  artifactKey: Guid(9e24a45828a8cee4fb5789e588d30253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/fase2.unity using Guid(9e24a45828a8cee4fb5789e588d30253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21ef884d5239ffd025d43c5711d74385') in 0.010240 seconds
+  Import took 0.021205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.878224 seconds.
+  path: Assets/Scenes/fase1.unity
+  artifactKey: Guid(b8dad69a6bb8bbf469e2194999d7de86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/fase1.unity using Guid(b8dad69a6bb8bbf469e2194999d7de86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f4eeff46b5ba809a2235904e851eb14') in 4.804760 seconds
+  Import took 5.051582 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
