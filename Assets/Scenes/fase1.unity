@@ -19769,7 +19769,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d7d360f1cfb74d4c99b57a791da0ff7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  barraDeVida: {fileID: 0}
+  barraDeVida: {fileID: 2006912024}
   vidaMaxima: 100
   GameOverScene: gameOver
 --- !u!114 &2006912022
