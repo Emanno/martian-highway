@@ -79,10 +79,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dano: 50
-  disMin: 80
+  disMin: 70
   rb: {fileID: 1788296009534528954}
-  vel: {x: 0, y: 0, z: -15}
-  velQueda: {x: 0, y: -8, z: -15}
+  vel: {x: 0, y: 0, z: -20}
+  velQueda: {x: 0, y: -3, z: -15}
   carro: {fileID: 0}
 --- !u!82 &1788296009534528948
 AudioSource:

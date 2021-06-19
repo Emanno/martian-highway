@@ -13,7 +13,7 @@ public class turn : MonoBehaviour
         controller = GetComponent<CharacterController>();
     }
 
-    void FixedUpdate()
+    void Update()
     {
         if (Input.GetKeyDown(KeyCode.RightArrow) && transform.position.x < 0.5f)
         {
